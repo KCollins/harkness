@@ -1,6 +1,8 @@
 # harkness
 A python library for generating VR-friendly visualization files from pandas dataframes. 
 
+Try it in Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/KCollins/harkness/HEAD?labpath=Example_ply.ipynb)
+
 ## How to Use:
 - **Identify an appropriate dataframe.** You'll want to make sure that your data makes sense in 3D, and select or add a column that makes sense as a colormap. The colormap column can be categorical or numeric.
 
