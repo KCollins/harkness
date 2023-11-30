@@ -2,4 +2,18 @@
 requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
 
+[project]
+name = "hamsci_psws"
+authors = [
+  { name="Kristina Collins", email="kvcollins@spacescience.org"},
+]
+description = "A python library for generating VR-friendly visualization files from pandas dataframes."
+readme = "README.md"
+license = {text = "MIT License"}
+requires-python = ">=3.6"
+dependencies = [
+    "matplotlib",
+    "pandas"
+]
+
 [tool.setuptools_scm]
