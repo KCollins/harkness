@@ -8,7 +8,7 @@ A python library for generating VR-friendly visualization files from pandas data
 
 - **Visualize on desktop.** You can use a program like [Autodesk MeshMixer](https://meshmixer.com/) or [Cloud Compare](https://www.danielgm.net/cc/).
 
-- **Visualize in VR.** You can [VRifier](https://store.steampowered.com/app/640080/Vrifier/)
+- **Visualize in VR.** You can open the resulting file in a VR viewer like [VRifier](https://store.steampowered.com/app/640080/Vrifier/).
 
 
 
