@@ -1,6 +1,14 @@
 # harkness
-A python library for generating VR-friendly visualization files from pandas dataframes.
+A python library for generating VR-friendly visualization files from pandas dataframes. 
 
+## How to Use:
+- **Identify an appropriate dataframe.**
+
+- **Generate .ply file.** Run `create_ply()` on your dataframe, identifying the columns X, Y, Z, and C (for color).
+
+- **Visualize on desktop.** You can use a program like [Autodesk MeshMixer](https://meshmixer.com/) or [Cloud Compare](https://www.danielgm.net/cc/).
+
+- **Visualize in VR.** You can [VRifier](https://store.steampowered.com/app/640080/Vrifier/)
 
 
 
