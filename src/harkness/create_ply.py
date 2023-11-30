@@ -1,4 +1,7 @@
-# functions for visualization of data from pandas dataframes
+"""
+create_ply:
+Create a PLY file from a pandas DataFrame with columns X, Y, Z, and C.
+"""
 
 # Importing packages
 import pandas as pd
