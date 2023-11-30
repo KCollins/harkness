@@ -2,7 +2,7 @@
 A python library for generating VR-friendly visualization files from pandas dataframes. 
 
 ## How to Use:
-- **Identify an appropriate dataframe.** You'll want to make sure that your data makes sense in 3D, and select or add a column that makes sense as a colormap.
+- **Identify an appropriate dataframe.** You'll want to make sure that your data makes sense in 3D, and select or add a column that makes sense as a colormap. The colormap column can be categorical or numeric.
 
 - **Generate .ply file.** Run `create_ply()` on your dataframe, identifying the columns X, Y, Z, and C (for color).
 
