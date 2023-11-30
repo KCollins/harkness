@@ -14,7 +14,7 @@ def create_ply(df, filename, C = 'C',  X = 'X', Y = 'Y', Z = 'Z', cmap = 'viridi
     Parameters:
         df (pandas.DataFrame): The DataFrame containing the point cloud data.
         filename (str): The filename for the PLY file.
-        C: The column of df associated with color
+        C: The column of df associated with color; must be of numeric type.
         X, Y, Z: column names associated with X, Y and Z. XYZ by default.
         cmap: The matplotlib colormap used for the .ply file. 'viridis' by default.
     """
@@ -33,13 +33,11 @@ def create_ply(df, filename, C = 'C',  X = 'X', Y = 'Y', Z = 'Z', cmap = 'viridi
 
         for i in range(len(df)):
             row = df.iloc[i]
-            # from matplotlib.colors import cmap
             cmap = plt.get_cmap(cmap)
             norm = plt.Normalize(min(df[C]), max(df[C]))
             color = cmap(norm(row[C]))
 
-            # Calculate the RGB color
-            # color = cmap(norm(row[C]))[:3] * 255
+            # Calculate the RGB color for each point in the pointcloud
             color = [int(x * 255) for x in cmap(norm(row[C]))[:3]]
 
             # Write the coordinates and color values to the PLY file
