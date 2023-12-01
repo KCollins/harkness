@@ -26,3 +26,6 @@ classifiers = [
 Homepage = "https://github.com/KCollins/harkness"
 "Bug Tracker" = "https://github.com/KCollins/harkness/issues"
 Changelog = "https://github.com/KCollins/harkness/releases"
+
+[tool.setuptools_scm]
+
