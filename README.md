@@ -10,7 +10,7 @@ Try it in Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybin
 
 - **Visualize on desktop.** You can use a program like [Autodesk MeshMixer](https://meshmixer.com/) or [Cloud Compare](https://www.danielgm.net/cc/).
 
-- **Visualize in VR.** You can open the resulting file in a VR viewer like [VRifier](https://store.steampowered.com/app/640080/Vrifier/).
+- **Visualize in VR.** You can open the resulting file in a VR viewer like [VRifier](https://store.steampowered.com/app/640080/Vrifier/). Any headset that works with SteamVR will do. I use a Valve Index.
 
 
 
