@@ -3,7 +3,7 @@ requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "hamsci_psws"
+name = "harkness"
 authors = [
   { name="Kristina Collins", email="kvcollins@spacescience.org"},
 ]
