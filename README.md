@@ -5,6 +5,9 @@ Try it in Binder: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybin
 
 ## Minimum Working Example:
 ```
+# Install harkness if needed:
+pip install harkness
+
 # Import libraries
 import pandas as pd
 from harkness.create_ply import create_ply
